@@ -1,55 +1,330 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Francis Thobias | IT Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Francis Thobias - IT System Admin and DBA portfolio focused on reliable infrastructure, database integrity, and operational uptime."
+  />
+  <title>Francis Thobias | IT System Admin, DBA</title>
 
-    <link rel="stylesheet" href="./index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="./index.css" />
 </head>
-
 <body>
-    <header>
-        <div class="container">
-            <section class="landing">
-                <!-- HERO Section Content -->
-            </section>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="container nav-shell">
+      <a class="brand" href="#home" aria-label="Go to home section">
+        <span class="brand__mark">FT</span>
+        <span class="brand__text">Francis Thobias</span>
+      </a>
+
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-nav-list"
+        aria-label="Toggle navigation menu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" aria-label="Primary">
+        <ul id="site-nav-list">
+          <li><a class="nav-link is-active" href="#home">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#skills">Skills</a></li>
+          <li><a class="nav-link" href="#experience">Experience</a></li>
+          <li><a class="nav-link" href="#projects">Projects</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section id="home" class="section hero">
+      <div class="container hero__grid">
+        <div class="hero__copy reveal">
+          <p class="eyebrow">IT SUPPORT | SYSTEM ADMIN | DATABASE SUPPORT</p>
+          <h1>Francis Thobias</h1>
+          <p class="hero__role">IT System Admin, DBA</p>
+          <p class="hero__summary">
+            I help teams keep computers, networks, and systems working every day. I solve IT problems quickly and
+            support safe, reliable data use.
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#contact">Contact Me</a>
+            <a
+              class="btn btn--ghost btn--disabled"
+              href="#"
+              data-disabled-link="true"
+              aria-disabled="true"
+              aria-label="Download CV (placeholder link)"
+            >
+              Download CV
+            </a>
+          </div>
+
+          <ul class="hero__meta" aria-label="Professional summary highlights">
+            <li>Based in Moshi, Kilimanjaro, Tanzania</li>
+            <li>Hands-on IT support</li>
+            <li>Database and backup support</li>
+          </ul>
         </div>
-    </header>
 
-    <main>
-        <section class="about">
-            <!-- ABOUT Section Content -->
-        </section>
+        <aside class="hero__portrait reveal" aria-label="Profile portrait">
+          <div class="portrait-card">
+            <img
+              src="./images/profile.png"
+              alt="Portrait of Francis Thobias in a navy suit"
+              width="1592"
+              height="1592"
+            />
+            <p class="portrait-card__caption">Ready to support daily IT operations and system uptime.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
 
-        <section class="tech-stack">
-            <!-- TECH STACK Section Content -->
-        </section>
+    <section id="about" class="section section--alt">
+      <div class="container about__grid">
+        <div class="section-heading reveal">
+          <p class="section-label">About</p>
+          <h2>I Keep IT Systems Running</h2>
+          <p>
+            I support network, computers, and business systems so teams can work without delays.
+            I focus on clear troubleshooting and long-term fixes.
+          </p>
+          <p>
+            My goal is simple: less downtime, better performance, and better user support.
+          </p>
+        </div>
 
-        <section class="experience">
-            <!-- EXPERIENCE Section Content -->
-        </section>
+        <div class="value-grid">
+          <article class="value-card reveal">
+            <h3>Incident Response</h3>
+            <p>Quick support for system and network issues.</p>
+          </article>
+          <article class="value-card reveal">
+            <h3>Database Awareness</h3>
+            <p>Database checks, backup support, and recovery help.</p>
+          </article>
+          <article class="value-card reveal">
+            <h3>Cross-Team Coordination</h3>
+            <p>Good communication with teams, users, and vendors.</p>
+          </article>
+          <article class="value-card reveal">
+            <h3>Preventive Maintenance</h3>
+            <p>Regular updates and checks to prevent system failures.</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-        <section class="projects">
-            <!-- PROJECTS Section Content -->
-        </section>
-    </main>
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-label">Skills</p>
+          <h2>Core Skills</h2>
+        </div>
 
-    <footer>
-        <div class="container">
-            <p>Francis Thobias</p>
-            <p>IT Infrastructure & Systems Support Specialist</p>
+        <div class="skills-grid">
+          <article class="skill-group reveal">
+            <h3>Infrastructure</h3>
+            <ul>
+              <li>LAN / Wi-Fi troubleshooting</li>
+              <li>Computer and endpoint support</li>
+              <li>POS and front-office system support</li>
+            </ul>
+          </article>
+
+          <article class="skill-group reveal">
+            <h3>Databases</h3>
+            <ul>
+              <li>Database support</li>
+              <li>Data integrity monitoring</li>
+              <li>Backup and recovery support</li>
+            </ul>
+          </article>
+
+          <article class="skill-group reveal">
+            <h3>Systems</h3>
+            <ul>
+              <li>PMS, CCTV, and access control support</li>
+              <li>Support for accounting systems</li>
+              <li>Updates, patches, and security checks</li>
+            </ul>
+          </article>
+
+          <article class="skill-group reveal">
+            <h3>Collaboration</h3>
+            <ul>
+              <li>Simple technical documentation</li>
+              <li>Vendor coordination</li>
+              <li>User support and clear communication</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section section--alt">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-label">Experience</p>
+          <h2>Work Experience</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <header>
+              <p class="timeline-item__date">January 2026 - Present</p>
+              <h3>IT Technician</h3>
+              <p class="timeline-item__org">Kibo Palace Hotel</p>
+            </header>
+            <ul>
+              <li>Support hotel workstations, POS, and front-office systems.</li>
+              <li>Fix LAN and Wi-Fi issues for staff and guests.</li>
+              <li>Support PMS, CCTV, accounting, and access control systems.</li>
+              <li>Help with database checks and data accuracy.</li>
+              <li>Run routine updates, maintenance, and security checks.</li>
+              <li>Support backup tasks and recovery work.</li>
+              <li>Work with IT vendors on repairs and upgrades.</li>
+              <li>Help reduce downtime in daily hotel operations.</li>
+            </ul>
+          </article>
+
+          <article class="timeline-item reveal">
+            <header>
+              <p class="timeline-item__date">February 2024 - July 2025</p>
+              <h3>ICT Officer</h3>
+              <p class="timeline-item__org">Fyntrix Technologies Ltd - Arusha, Tanzania</p>
+            </header>
+            <ul>
+              <li>Maintained and repaired commercial printing equipment.</li>
+              <li>Fixed hardware and network issues for clients.</li>
+              <li>Installed and configured network printers and office systems.</li>
+              <li>Performed preventive maintenance and performance checks.</li>
+              <li>Kept service records and technical notes updated.</li>
+              <li>Worked with clients to reduce business disruption.</li>
+              <li>Supported internal IT troubleshooting tasks.</li>
+            </ul>
+          </article>
+
+          <article class="timeline-item reveal">
+            <header>
+              <p class="timeline-item__date">August 2022 - August 2023</p>
+              <h3>GDSC Lead</h3>
+              <p class="timeline-item__org">Google Developers Group Arusha</p>
+            </header>
+            <ul>
+              <li>Led developer community programs and activities.</li>
+              <li>Organized workshops and tech events.</li>
+              <li>Helped grow participation in the community.</li>
+              <li>Gave talks on new technology and good coding practice.</li>
+              <li>Connected students, schools, and industry partners.</li>
+            </ul>
+          </article>
+
+          <article class="timeline-item timeline-item--education reveal">
+            <header>
+              <p class="timeline-item__date">2020 - 2023</p>
+              <h3>BSc in Computer Science</h3>
+              <p class="timeline-item__org">Arusha Technical College</p>
+            </header>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-label">Projects</p>
+          <h2>Featured Projects</h2>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <h3>Attendance Tracking System</h3>
             <p>
-                <a href="mailto:francisallen9@gmail.com">Email</a> |
-                <a href="https://www.linkedin.com/in/francis-thobias-a62948155/">LinkedIn</a> |
-                <a href="https://github.com/Franciz-01tobias">GitHub</a>
+              A simple system to record attendance, track daily status, and manage attendance data.
             </p>
-        </div>
-    </footer>
-</body>
+            <a href="https://github.com/Franciz-01tobias/Attendance-Tracking-System.git" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+          </article>
 
+          <article class="project-card reveal">
+            <h3>College Student Management System</h3>
+            <p>
+              A system to manage student records, attendance, and key college information.
+            </p>
+            <a href="https://github.com/Franciz-01tobias/sms.git" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+          </article>
+
+          <article class="project-card reveal">
+            <h3>Mark Beverage Sales Management System</h3>
+            <p>
+              A system to track beverage sales, stock updates, and basic sales reports.
+            </p>
+            <a href="https://github.com/Franciz-01tobias/markBeverages.git" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section--alt">
+      <div class="container">
+        <div class="contact-card reveal">
+          <p class="section-label">Contact</p>
+          <h2>Let's Work Together</h2>
+          <p>
+            I am open to IT roles where I can support users, keep systems stable, and improve daily operations.
+          </p>
+
+          <div class="contact-actions">
+            <a class="btn btn--primary" href="mailto:francisallen9@gmail.com">Email Me</a>
+            <a
+              class="btn btn--ghost"
+              href="https://www.linkedin.com/in/francis-thobias-a62948155/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn
+            </a>
+            <a
+              class="btn btn--ghost"
+              href="https://github.com/Franciz-01tobias"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-shell">
+      <p>Francis Thobias</p>
+      <p>IT System Admin, DBA</p>
+      <p>&copy; <span id="year">2026</span> Francis Thobias. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="./index.js" defer></script>
+</body>
 </html>
