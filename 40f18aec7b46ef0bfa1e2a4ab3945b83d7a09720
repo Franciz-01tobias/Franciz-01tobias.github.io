@@ -1,0 +1,25 @@
+index.css
+  97de798d7af6ea1e 218-344
+index.html
+  97de798d7af6ea1e 7,16-17,19,22-26,29-30,33-34,37-38,40,42-52
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.8",
+  "base_commit_sha": "40f18aec7b46ef0bfa1e2a4ab3945b83d7a09720",
+  "prompts": {
+    "97de798d7af6ea1e": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "32093469-df27-4620-90ea-c88770dbfa61",
+        "model": "unknown"
+      },
+      "human_author": "francis <francisallen9@gmail.com>",
+      "messages": [],
+      "total_additions": 279,
+      "total_deletions": 345,
+      "accepted_lines": 157,
+      "overriden_lines": 0
+    }
+  }
+}
