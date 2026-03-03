@@ -1,0 +1,27 @@
+index.css
+  1ec5ff983a13725a 1-35,37-55,57-60,62-65,67-70,72-73,75-85,87-93,95-100,102-103,106-107,109-114,116-131,133-134,136-138,140-164,166-189,191-457,459-460,462-463,465-489,491-494,496-498,500-505,507-511,513-518,520,522-525,527-530,532-534,536-540,542-550,552-555,557-571,573-601,603-640,642-658,660-665,667-671
+index.html
+  1ec5ff983a13725a 4-16,18,20-68,70-74,76,78-93,95-330
+index.js
+  1ec5ff983a13725a 1-104
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.8",
+  "base_commit_sha": "d1aa0531bd6d870279146ae12681d049dab192d1",
+  "prompts": {
+    "1ec5ff983a13725a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019cb52c-b1cf-77c2-8249-0da277d7bdbc",
+        "model": "gpt-5.3-codex"
+      },
+      "human_author": "francis <francisallen9@gmail.com>",
+      "messages": [],
+      "total_additions": 1284,
+      "total_deletions": 577,
+      "accepted_lines": 1057,
+      "overriden_lines": 0
+    }
+  }
+}
