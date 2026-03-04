@@ -1,0 +1,23 @@
+index.html
+  1ec5ff983a13725a 250,252,254,258,260,262,266,268,270
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.8",
+  "base_commit_sha": "d26442bdf3dd2d80dbaa1622d0bba7613101be0d",
+  "prompts": {
+    "1ec5ff983a13725a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019cb52c-b1cf-77c2-8249-0da277d7bdbc",
+        "model": "gpt-5.3-codex"
+      },
+      "human_author": "francis <francisallen9@gmail.com>",
+      "messages": [],
+      "total_additions": 9,
+      "total_deletions": 12,
+      "accepted_lines": 9,
+      "overriden_lines": 0
+    }
+  }
+}
